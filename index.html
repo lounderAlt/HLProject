@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slideshowMain.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <img class="navbar_logo" src="/siteImages/logoHLWhite.png" alt="">
+        <ul class="navbar_nav">
+            <a href="#">
+                <li class="navbar_nav_active">НАЧАЛО</li>
+            </a>
+            <a href="#">
+                <li>МАГАЗИН</li>
+            </a>
+            <a href="#store_btn_redirect">
+                <li>ЗА НАС</li>
+            </a>
+            <a href="#contact_container">
+                <li>ЗА КОНТАКТ</li>
+            </a>
+        </ul>
+        <img class="navbar_search" src="/icons/search.svg" alt="">
+        <img class="navbar_cart" src="/icons/cart.svg" alt="">
+    </div>
+
+    <!-- Main -->
+    <!-- slideshow -->
+    <div id="background_slideshow">
+        <div id="wrapper">
+            <div id="slider_wrap">
+                <ul id="slider">
+                    <li id="first_slide_item">
+                        <img src="siteImages/slideshowBG1.jpg" alt="">
+                        <div id="quote_container">
+                            <span id="quote">„АКО ЩЕ ПРАВИШ<br> НЕЩО, НАПРАВИ<br> ГО ДО КРАЙ.“</span>
+                            <span id="quote_author">– ДЖЕЙ КЪТЛЪР</span>
+                        </div>
+                    </li>
+                    <li id="first_slide_item">
+                        <img src="siteImages/slideshowBG1.jpg" alt="">
+                        <div id="quote_container">
+                            <span id="quote">„АКО ЩЕ ПРАВИШ<br> НЕЩО, НАПРАВИ<br> ГО ДО КРАЙ.“</span>
+                            <span id="quote_author">– ДЖЕЙ КЪТЛЪР</span>
+                        </div>
+                    </li>
+                    <li id="first_slide_item">
+                        <img src="siteImages/slideshowBG1.jpg" alt="">
+                        <div id="quote_container">
+                            <span id="quote">„АКО ЩЕ ПРАВИШ<br> НЕЩО, НАПРАВИ<br> ГО ДО КРАЙ.“</span>
+                            <span id="quote_author">– ДЖЕЙ КЪТЛЪР</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- controls -->
+                <div class="btns" id="next">
+                    <img src="/icons/rightArrow.svg" alt="">
+                </div>
+                <div class="btns" id="previous">
+                    <img src="/icons/leftArrow.svg" alt="">
+                </div>
+                <!-- !controls -->
+
+            </div>
+            <div id="pagination_wrap">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div id="store_btn_redirect">
+            <span>КЪМ МАГАЗИНА</span>
+            <img src="/icons/toStoreIcon.svg" alt="">
+        </div>
+        <script src="/slideshowMain.js"></script>
+        <!-- !slideshow -->
+    </div>
+
+
+    <!-- About -->
+    <div id="about_container">
+        <p id="about_container_title">Кои сме ние?</p>
+        <p id="about_container_text">Нашият Лорем ипсум инструмент бе създаден с идеята да бъде полезен най-вече на уеб
+            дизайнери, уебмастъри и маркетьори на съдържание. Ако имате нужда от запълващ текст, заместител за
+            съдържание, което все още не е създадено, можете да използвате този инструмент! </p>
+    </div>
+    <img id="about_image" src="siteImages/aboutImg.png" alt="">
+
+
+    <!-- Contact -->
+    <div id="contact_container">
+        <img id="contact_background" src="siteImages/contactBG.jpg" alt="">
+        <div id="contact_info">
+            <div id="contact_telephone">
+                <img id="contact_telephone_icon" class="contact_icons" src="icons/phoneIcon.png" alt="">
+                <p id="contact_telephone_title" class="contact_info_text">Телефон:</p>
+                <span id="contact_telephone_content" class="contact_info_text">+359 876 845 304</span>
+            </div>
+            <div id="contact_email">
+                <img id="contact_email_icon" class="contact_icons" src="icons/emailIcon.png" alt="">
+                <p id="contact_email_title" class="contact_info_text">E-Mail:</p>
+                <span id="contact_email_content" class="contact_info_text">example@example.com</span>
+            </div>
+            <div id="contact_website">
+                <img id="contact_website_icon" class="contact_icons" src="icons/globeIcon.png" alt="">
+                <p id="contact_website_title" class="contact_info_text">Уебсайт:</p>
+                <span id="contact_website_content" class="contact_info_text">https://www.herbalife.com</span>
+            </div>
+            <div id="contact_address">
+                <img id="contact_address_icon" class="contact_icons" src="icons/mapIcon.png" alt="">
+                <p id="contact_address_title" class="contact_info_text">Адрес:</p>
+                <span id="contact_address_content" class="contact_info_text">ул. „Капитан Николов“ №2 4000
+                    Пловдив</span>
+            </div>
+        </div>
+        <div id="contact_title_container">
+            <p>За контакт с нас</p>
+        </div>
+    </div>
+    <div id="footer">
+        <span>© Copyright 2021 by Herbalife. All Rights Reserved.</span>
+    </div>
+</body>
+
+</html>
